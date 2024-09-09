@@ -19,11 +19,12 @@ h1{
     margin: 0;
 }
 .contact{
+}
+.contact .part{
+    gap: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.contact .part{
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
