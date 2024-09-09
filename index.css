@@ -84,7 +84,8 @@ h1{
     text-align: center;
         width: 80vw;
         position: relative;
-        bottom: 60vw;
+        bottom: 55vw;
+        left: 5vw
 }
 
 .contact .part {
