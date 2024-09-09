@@ -18,12 +18,14 @@ h1{
     text-align: center;
     margin: 0;
 }
-.contact{
+.contact {
+    text-align: center;
 }
-.contact .part{
-    gap: 10px;
-    display: flex;
-    flex-direction: row;
+
+.contact .part {
+    padding: 10px;
+    margin: 5px;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
