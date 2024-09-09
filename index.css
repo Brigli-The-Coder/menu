@@ -18,6 +18,17 @@ h1{
     text-align: center;
     margin: 0;
 }
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .part{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
 .container{
     width: 70vw;
     margin: auto;
