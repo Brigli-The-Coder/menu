@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(./grunge-wall-texture.jpg);
+    background-position: top top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 0 1px black;
+    text-align: center;
+    margin: 0;
+}
+.container{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 50;
+    left: 50;
+}
+.container .card{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    padding: 10px 20px;
+    position: relative;
+    top: 40vh;
+    left: 15vw;
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: rgba(255, 239, 220, .5);
+}
+.container .card:hover{
+    color: rgb(0, 0, 255, .3);
+    background-color: rgba(255, 239, 220, .5);
+    transition: 1.5s;
+}
+@media screen and (min-width: 300px) and (max-width: 500px){
+    h1{
+        position: relative;
+        top: 15px;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        right: 5vw;
+        bottom: 20vh;
+        margin: 0;
+        width: 80vw;
+    }
+}
